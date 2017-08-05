@@ -45,5 +45,5 @@ draw_set_colour($FFFFFFFF & $ffffff);
 /// @DnDArgument : "x" "cameraX + (cameraWidth/2)"
 /// @DnDArgument : "y" "cameraY+25"
 /// @DnDArgument : "caption" """"
-/// @DnDArgument : "var" "theScore"
-draw_text(cameraX + (cameraWidth/2), cameraY+25, string("") + string(theScore));
+/// @DnDArgument : "var" "global.theScore"
+draw_text(cameraX + (cameraWidth/2), cameraY+25, string("") + string(global.theScore));
